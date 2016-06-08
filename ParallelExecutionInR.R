@@ -1,10 +1,9 @@
-setwd("/Users/Harshit/Desktop/INFO7374 - David Oury/Assignment1/loans/")
 library(RJSONIO)
 library(dplyr)
 library(rlist)
 library(chron)
 
-data.folder <- "/Users/Harshit/Desktop/INFO7374 - David Oury/Assignment1/loans/"
+data.folder <- "~/loans/"
 loans.file <- list.files(data.folder, pattern="*.json")
 
 
